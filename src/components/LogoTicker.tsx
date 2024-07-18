@@ -1,17 +1,10 @@
-import acmeLogo from "../assets/images/acme.png";
-import quantumLogo from "../assets/images/quantum.png";
-import echoLogo from "../assets/images/echo.png";
-import celestialLogo from "../assets/images/celestial.png";
-import pulseLogo from "../assets/images/pulse.png";
-import apexLogo from "../assets/images/apex.png";
-
 const images = [
-  { src: acmeLogo, alt: "Acme Logo" },
-  { src: quantumLogo, alt: "Quantum Logo" },
-  { src: echoLogo, alt: "Echo Logo" },
-  { src: celestialLogo, alt: "Celestial Logo" },
-  { src: pulseLogo, alt: "Pulse Logo" },
-  { src: apexLogo, alt: "Apex Logo" },
+  { src: "/assets/aegims/acme.png", alt: "Acme Logo" },
+  { src: "/assets/images/quantum.png", alt: "Quantum Logo" },
+  { src: "/assets/images/echo.png", alt: "Echo Logo" },
+  { src: "/assets/images/celestial.png", alt: "Celestial Logo" },
+  { src: "/assets/images/pulse.png", alt: "Pulse Logo" },
+  { src: "/assets/images/apex.png", alt: "Apex Logo" },
 ];
 
 export const LogoTicker = () => {
