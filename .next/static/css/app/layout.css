@@ -600,6 +600,9 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
+.mt-9 {
+  margin-top: 2.25rem;
+}
 .inline {
   display: inline;
 }
@@ -621,6 +624,9 @@ video {
 .h-\[375px\] {
   height: 375px;
 }
+.h-8 {
+  height: 2rem;
+}
 .w-1 {
   width: 0.25rem;
 }
@@ -638,6 +644,9 @@ video {
 }
 .max-w-md {
   max-width: 28rem;
+}
+.flex-none {
+  flex: none;
 }
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
@@ -666,6 +675,12 @@ video {
 }
 .gap-4 {
   gap: 1rem;
+}
+.gap-16 {
+  gap: 4rem;
+}
+.overflow-hidden {
+  overflow: hidden;
 }
 .overflow-clip {
   overflow: clip;
@@ -982,6 +997,10 @@ video {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 .text-center {
   text-align: center;
 }
@@ -991,6 +1010,10 @@ video {
 }
 .text-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 .font-medium {
@@ -1012,6 +1035,9 @@ video {
 }
 .text-transparent {
   color: transparent;
+}
+.text-white\/70 {
+  color: rgb(255 255 255 / 0.7);
 }
 .text-opacity-60 {
   --tw-text-opacity: 0.6;
@@ -1041,6 +1067,203 @@ video {
 }
 .\[-webkit-background-clip\:text\] {
   -webkit-background-clip: text;
+}
+
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:left-0::before {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.before\:top-0::before {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.before\:h-full::before {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.before\:w-20::before {
+  content: var(--tw-content);
+  width: 5rem;
+}
+
+.before\:w-5::before {
+  content: var(--tw-content);
+  width: 1.25rem;
+}
+
+.before\:bg-red-500::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.before\:bg-\[lin\]::before {
+  content: var(--tw-content);
+  background-color: lin;
+}
+
+.before\:bg-\[linear\]::before {
+  content: var(--tw-content);
+  background-color: linear;
+}
+
+.before\:bg-\[linear-gradient\]::before {
+  content: var(--tw-content);
+  background-color: linear-gradient;
+}
+
+.before\:bg-\[linear-gradient\(\)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient();
+}
+
+.before\:bg-\[linear-gradient\(to_\)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(to );
+}
+
+.before\:bg-\[linear-gradient\(to_right\)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(to right);
+}
+
+.before\:bg-\[linear-gradient\(to_right\2c \)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(to right,);
+}
+
+.before\:bg-\[linear-gradient\(to_right\2c \#\)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(to right,#);
+}
+
+.before\:bg-\[linear-gradient\(to_right\2c \#000\)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(to right,#000);
+}
+
+.before\:bg-\[linear-gradient\(to_right\2c \#000\2c \)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(to right,#000,);
+}
+
+.before\:bg-\[linear-gradient\(to_right\2c \#000\2c rgb\)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(to right,#000,rgb);
+}
+
+.before\:bg-\[linear-gradient\(to_right\2c \#000\2c rgb\(0\)\)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(to right,#000,rgb(0));
+}
+
+.before\:bg-\[linear-gradient\(to_right\2c \#000\2c rgb\(0\2c 0\2c 0\2c 0\)\)\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(to right,#000,rgb(0,0,0,0));
+}
+
+.before\:content-\[\'\'\]::before {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.after\:absolute::after {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:right-0::after {
+  content: var(--tw-content);
+  right: 0px;
+}
+
+.after\:top-0::after {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.after\:h-full::after {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.after\:w-20::after {
+  content: var(--tw-content);
+  width: 5rem;
+}
+
+.after\:w-5::after {
+  content: var(--tw-content);
+  width: 1.25rem;
+}
+
+.after\:bg-red-500::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.after\:bg-\[\]::after {
+  content: var(--tw-content);
+  background-color: ;
+}
+
+.after\:bg-\[linear-gradient\(\)\]::after {
+  content: var(--tw-content);
+  background-image: linear-gradient();
+}
+
+.after\:bg-\[linear-gradient\(to_\)\]::after {
+  content: var(--tw-content);
+  background-image: linear-gradient(to );
+}
+
+.after\:bg-\[linear-gradient\(to_left\)\]::after {
+  content: var(--tw-content);
+  background-image: linear-gradient(to left);
+}
+
+.after\:bg-\[linear-gradient\(to_left\2c \)\]::after {
+  content: var(--tw-content);
+  background-image: linear-gradient(to left,);
+}
+
+.after\:bg-\[linear-gradient\(to_left\2c \#000\)\]::after {
+  content: var(--tw-content);
+  background-image: linear-gradient(to left,#000);
+}
+
+.after\:bg-\[linear-gradient\(to_left\2c \#000\2c \)\]::after {
+  content: var(--tw-content);
+  background-image: linear-gradient(to left,#000,);
+}
+
+.after\:bg-\[linear-gradient\(to_left\2c \#000\2c rgba\)\]::after {
+  content: var(--tw-content);
+  background-image: linear-gradient(to left,#000,rgba);
+}
+
+.after\:bg-\[linear-gradient\(to_left\2c \#000\2c rgb\(\)\)\]::after {
+  content: var(--tw-content);
+  background-image: linear-gradient(to left,#000,rgb());
+}
+
+.after\:bg-\[linear-gradient\(to_left\2c \#000\2c rgb\(0\2c 0\2c 0\2c 0\)\)\]::after {
+  content: var(--tw-content);
+  background-image: linear-gradient(to left,#000,rgb(0,0,0,0));
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
 }
 
 .hover\:text-opacity-100:hover {
