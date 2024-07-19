@@ -1,9 +1,10 @@
+import Image from "next/image";
 import ArrowWIcon from "../../public/assets/icons/arrow-w.svg";
 
 export const Hero = () => {
   return (
     <div className="text-white bg-[linear-gradient(to_bottom,#000,#200D42_34%,#4F21A1_65%,#A46EDB_82%)] py-[72px] relative overflow-clip">
-      <div className="absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[760px] sm:py-24 rounded-[100%] left-1/2 -translate-x-1/2 border border-[#B48CDE] bg-[radial-gradient(closest-side,#000_82%,#9560EB)] top-[calc(100%-96px)] sm:top-[calc(100%-100px)]"></div>
+      <div className="absolute h-[375px] w-[750px] sm:w-[1536px] sm:h-[760px] lg:w-[2400px] lg:h-[1200px] sm:py-24 rounded-[100%] left-1/2 -translate-x-1/2 border border-[#B48CDE] bg-[radial-gradient(closest-side,#000_82%,#9560EB)] top-[calc(100%-96px)] sm:top-[calc(100%-100px)]"></div>
       <div className="container relative">
         <div className="flex items-center justify-center">
           <a
@@ -19,12 +20,26 @@ export const Hero = () => {
             </span>
           </a>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-8">
           <div className="inline-flex relative">
-            <h1 className="text-7xl sm:text-9xl font-bold tracking-tighter text-center mt-8 inline-flex">
+            <h1 className="text-7xl sm:text-9xl font-bold tracking-tighter text-center inline-flex">
               One Task <br />
               at a time
             </h1>
+            <Image
+              src={"/assets/images/cursor.png"}
+              alt="cursor"
+              height={200}
+              width={200}
+              className="absolute right-[476px] top-[108px] hidden sm:inline"
+            />
+            <Image
+              src={"/assets/images/message.png"}
+              alt="cursor"
+              height={200}
+              width={200}
+              className="absolute top-[56px] left-[498px] hidden sm:inline"
+            />
           </div>
         </div>
         <div className="flex justify-center">
