@@ -597,6 +597,18 @@ video {
 .left-\[498px\] {
   left: 498px;
 }
+.-top-\[120px\] {
+  top: -120px;
+}
+.right-\[calc\(100\%\+24px\)\] {
+  right: calc(100% + 24px);
+}
+.top-6 {
+  top: 1.5rem;
+}
+.left-\[calc\(100\%\+36px\)\] {
+  left: calc(100% + 36px);
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -627,6 +639,12 @@ video {
 }
 .mt-4 {
   margin-top: 1rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
 }
 .inline {
   display: inline;
@@ -691,6 +709,12 @@ video {
 .max-w-\[648px\] {
   max-width: 648px;
 }
+.max-w-sm {
+  max-width: 24rem;
+}
+.max-w-\[\] {
+  max-width: ;
+}
 .flex-none {
   flex: none;
 }
@@ -730,6 +754,12 @@ video {
 }
 .gap-16 {
   gap: 4rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-2\.5 {
+  gap: 0.625rem;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -819,6 +849,9 @@ video {
 }
 .bg-\[linear-grad\] {
   background-color: linear-grad;
+}
+.bg-white\/20 {
+  background-color: rgb(255 255 255 / 0.2);
 }
 .bg-\[linear-gradient\(to_right\2c \#FCD6FF\2c \#29D8FF\2c \#FFFD80\2c \#FCD6FF\)\] {
   background-image: linear-gradient(to right,#FCD6FF,#29D8FF,#FFFD80,#FCD6FF);
@@ -1156,6 +1189,15 @@ video {
 }
 .\[-webkit-background-clip\:text\] {
   -webkit-background-clip: text;
+}
+
+.placeholder\:bg-white::placeholder {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.placeholder\:bg-white\/60::placeholder {
+  background-color: rgb(255 255 255 / 0.6);
 }
 
 .before\:absolute::before {
