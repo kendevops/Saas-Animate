@@ -619,6 +619,9 @@ video {
 .mt-2 {
   margin-top: 0.5rem;
 }
+.mt-14 {
+  margin-top: 3.5rem;
+}
 .inline {
   display: inline;
 }
@@ -976,13 +979,24 @@ video {
 .bg-\[radial-gradient\(closest-side\2c \#000_82\%\2c \#9560EB\)\] {
   background-image: radial-gradient(closest-side,#000 82%,#9560EB);
 }
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
 .from-red-500 {
   --tw-gradient-from: #ef4444 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(239 68 68 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
+.from-black {
+  --tw-gradient-from: #000 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
 .to-blue-500 {
   --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position);
+}
+.to-\[\#5D2CA8\] {
+  --tw-gradient-to: #5D2CA8 var(--tw-gradient-to-position);
 }
 .bg-clip-text {
   background-clip: text;
