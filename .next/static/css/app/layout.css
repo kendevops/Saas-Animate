@@ -564,6 +564,9 @@ video {
 .relative {
   position: relative;
 }
+.inset-0 {
+  inset: 0px;
+}
 .top-2 {
   top: 0.5rem;
 }
@@ -794,6 +797,9 @@ video {
 .border-2 {
   border-width: 2px;
 }
+.\!border {
+  border-width: 1px !important;
+}
 .border-b {
   border-bottom-width: 1px;
 }
@@ -820,6 +826,10 @@ video {
 }
 .border-white\/20 {
   border-color: rgb(255 255 255 / 0.2);
+}
+.border-purple-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(192 132 252 / var(--tw-border-opacity));
 }
 .border-opacity-30 {
   --tw-border-opacity: 0.3;
