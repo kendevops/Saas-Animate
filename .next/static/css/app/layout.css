@@ -715,6 +715,9 @@ video {
 .max-w-\[\] {
   max-width: ;
 }
+.max-w-none {
+  max-width: none;
+}
 .flex-none {
   flex: none;
 }
