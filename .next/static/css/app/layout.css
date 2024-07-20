@@ -1132,6 +1132,9 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+.pr-16 {
+  padding-right: 4rem;
+}
 .text-center {
   text-align: center;
 }
@@ -1229,6 +1232,11 @@ video {
 .before\:top-0::before {
   content: var(--tw-content);
   top: 0px;
+}
+
+.before\:z-10::before {
+  content: var(--tw-content);
+  z-index: 10;
 }
 
 .before\:h-full::before {
