@@ -20,7 +20,7 @@ export const ProductShowcase = () => {
           alt="Product Screenshot"
           width={1000}
           height={1000}
-          className="mt-14"
+          className="mt-14 mx-auto"
         />
       </div>
     </section>

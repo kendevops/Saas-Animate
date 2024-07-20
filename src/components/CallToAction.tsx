@@ -32,7 +32,7 @@ export const CallToAction = () => {
           <input
             type="email"
             name="email"
-            className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:bg-white/60 flex-1"
+            className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:bg-white/60 sm:flex-1"
           />
           <button className="bg-white text-black h-12 rounded-lg px-5">
             Get access
